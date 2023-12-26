@@ -1,0 +1,33 @@
+# Compiled byte code
+*.o
+*.so
+*.rlib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Folders
+/target/
+**/target/
+#/target
+
+# These directories are documented as being created by cargo.
+# However, they do not seem to be created in practice.
+/bin/
+/lib/
+
+# Ignore IDE files
+.idea/
+*.iml
+*.vscode/
+
+# Ignore OS generated files
+.DS_Store
+__MACOSX/
+
+# Ignore files related to Cargo.lock
+# Uncomment this line if you're creating a library
+# Cargo.lock
